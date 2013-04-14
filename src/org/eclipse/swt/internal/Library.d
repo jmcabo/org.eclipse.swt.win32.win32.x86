@@ -16,7 +16,7 @@ import java.lang.all;
 
 // do it here, so it can be evaluated at compile time
 // this saves a static ctor.
-private int buildSWT_VERSION (int major, int minor) {
+private T buildSWT_VERSION(T)(T major, T minor) {
     return major * 1000 + minor;
 }
 
